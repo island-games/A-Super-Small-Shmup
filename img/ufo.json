@@ -1,0 +1,36 @@
+{ "frames": [
+   {
+    "filename": "Sprite-0001 0.",
+    "frame": { "x": 2, "y": 2, "w": 32, "h": 27 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 27 },
+    "sourceSize": { "w": 32, "h": 27 },
+    "duration": 100
+   },
+   {
+    "filename": "Sprite-0001 1.",
+    "frame": { "x": 36, "y": 2, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 32, "h": 27 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.30-x64",
+  "image": "ufo.png",
+  "format": "RGBA8888",
+  "size": { "w": 52, "h": 29 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
