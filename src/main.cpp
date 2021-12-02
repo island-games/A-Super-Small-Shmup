@@ -73,7 +73,6 @@ void Draw()
 		listOfPauseObj[i]->Draw();
 	}
 	
-	Bartender_DrawTrophyPopUp();
 	vita2d_end_drawing();		
 	vita2d_swap_buffers();
 }
@@ -228,7 +227,7 @@ int main()
 {
 	vita2d_init();
 	vita2d_set_clear_color(RGBA8(0,0,0,255));
-    Bartender_StartBartender((char*)"password",(char*)"ISLD00000",true);
+    Bartender_StartBartender((char*)"password",(char*)"ISLD00000");
 	int timeCounter = 0;             
 	logoFont = vita2d_load_font_file("app0:img/ka1.ttf");
 	gameFont = vita2d_load_font_file("app0:img/ARCADE_N.ttf");
