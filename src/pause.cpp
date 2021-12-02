@@ -37,14 +37,14 @@ void pause::Draw()
 	switch(menuNumber)
 	{
 		case 0:
-			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,0,0,255), 32, (char*)"Contine");
+			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,0,0,255), 32, (char*)"Continue");
 			vita2d_font_draw_textf(gameFont, 335, 250, RGBA8(255,255,255,255), 32, "%s" "%s",(char*)"Sound: ",(char*)soundState.c_str());
 			vita2d_font_draw_textf(gameFont, 335, 300, RGBA8(255,255,255,255), 32, "%s" "%s",(char*)"Music: ",musicState.c_str());
 			vita2d_font_draw_text(gameFont, 335, 350, RGBA8(255,255,255,255), 32, (char*)"Quit Game");
 			break;
 			
 		case 1:
-			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,255,255,255), 32, (char*)"Contine");
+			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,255,255,255), 32, (char*)"Continue");
 			vita2d_font_draw_textf(gameFont, 335, 250, RGBA8(255,0,0,255), 32, "%s" "%s",(char*)"Sound: ",(char*)soundState.c_str());
 			vita2d_font_draw_textf(gameFont, 335, 300, RGBA8(255,255,255,255), 32,"%s" "%s", (char*)"Music: ",(char*)musicState.c_str());
 			vita2d_font_draw_text(gameFont, 335, 350, RGBA8(255,255,255,255), 32, (char*)"Quit Game");
@@ -52,14 +52,14 @@ void pause::Draw()
 			break;
 			
 		case 2:
-			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,255,255,255), 32, (char*)"Contine");
+			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,255,255,255), 32, (char*)"Continue");
 			vita2d_font_draw_textf(gameFont, 335, 250, RGBA8(255,255,255,255), 32, "%s""%s",(char*)"Sound: ",(char*)soundState.c_str());
 			vita2d_font_draw_textf(gameFont, 335, 300, RGBA8(255,0,0,255), 32, "%s""%s",(char*)"Music: ",(char*)musicState.c_str());
 			vita2d_font_draw_text(gameFont, 335, 350, RGBA8(255,255,255,255), 32, (char*)"Quit Game");
 			break;
 			
 		case 3:
-			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,255,255,255), 32, (char*)"Contine");
+			vita2d_font_draw_text(gameFont, 335, 200, RGBA8(255,255,255,255), 32, (char*)"Continue");
 			vita2d_font_draw_textf(gameFont, 335, 250, RGBA8(255,255,255,255), 32, "%s""%s",(char*)"Sound: ",(char*)soundState.c_str());
 			vita2d_font_draw_textf(gameFont, 335, 300, RGBA8(255,255,255,255), 32, "%s""%s",(char*)"Music: ",(char*)musicState.c_str());
 			vita2d_font_draw_text(gameFont, 335, 350, RGBA8(255,0,0,255), 32, (char*)"Quit Game");
